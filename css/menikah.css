@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: 'Raleway', Tahoma, sans-serif;
+  font-family: 'Tiro Bangla', Tahoma, sans-serif;
   width: 100%;
   min-height: 100%;
 }
@@ -32,9 +32,9 @@ html {
   border-bottom: 2px solid #996E6D;
 }
 
-.a.navbar-item{
+/* .a.navbar-item{
   font-color: #996E6D;
-}
+} */
 
 
 .hero {
