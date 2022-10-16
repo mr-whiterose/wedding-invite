@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: 'Tiro Bangla', Tahoma, sans-serif;
+  font-family: 'Raleway', Tahoma, sans-serif;
   width: 100%;
   min-height: 100%;
 }
@@ -38,8 +38,10 @@ html {
 
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  /* background-image: url(https://picsum.photos/id/25/1920/1080); */
+  /* background-size:contain;
+  background-position:center; */
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("/image/image825.png") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -177,6 +179,12 @@ html {
 .main-content .section-cashbac {
   background-color: rgb(238, 250, 253);
   padding: 80px 40px; 
+}
+
+@media (min-width: 769px){
+  .hero.is-large .hero-body{
+    padding: 10rem 0 ;
+  }
 }
 
 @media (max-width: 599px) {
