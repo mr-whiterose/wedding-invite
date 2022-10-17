@@ -40,7 +40,7 @@ html {
 
 .hero {
   /* background-image: url("/image/jumbotron-high.jpg"); */
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("/wedding-invite/image/jumbotron-high.jpg") no-repeat center;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("/image/jumbotron-high.jpg") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -214,7 +214,7 @@ html {
 }
 
 .main-content .section-light {
-  padding: 80px 40px;
+  padding: 80px 5%;
 }
 
 .main-content .section-light.regular-section {
@@ -343,6 +343,7 @@ vertical-align: middle;
 
 @media (max-width: 425px) {
   .bodytext {
+    margin: 5px;
     font-size: 1.1rem;
     /* padding: 3rem 7vw; */
   }
@@ -354,11 +355,20 @@ vertical-align: middle;
 }
 
 .tanggal-angka {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   line-height: 1;
 }
+
+.tanggal-aoka {
+  font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  line-height: 1;
+}
+
+
 
 .tempat {
   font-size: 1.4rem;
@@ -428,6 +438,7 @@ vertical-align: middle;
 }
 
 #toTop {
+  
   height: 50px;
   width: 50px;
   display: none;
@@ -445,12 +456,7 @@ vertical-align: middle;
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
-#toTop img {
-  color: white;
-
-}
-
-#toTop:hover {
+toTop:hover {
   background-color: #BC8887;
 }
 
