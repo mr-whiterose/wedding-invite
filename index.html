@@ -12,7 +12,6 @@
     <meta property="og:locale" content="id_ID" />
     <meta property="og:image" content="https://i.ibb.co/TPtSFby/thumbnail.jpg">
     <!-- <meta property="og:url" content="http://sherly.dae.ng/index.html"> -->
-    <meta name="twitter:card" content="summary_large_image">
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
@@ -25,6 +24,8 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/jquery.coundown.js"></script>
     <link rel="icon" type="image/png" href="image/favicon.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
     <!-- Begin Script for Countdown -->
@@ -53,44 +54,7 @@
     <div class="header-wrapper" id="home">
       <!-- Begin Hero -->
       <section class="hero is-largest">
-        <!-- Begin Mobile Nav -->
-        <!-- <nav class="navbar is-transparent is-hidden-desktop">
-          Begin Burger Menu
-          <div class="navbar-brand is-fixed-top">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          End Burger Menu
-          <div id="mobile-nav" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a class="navbar-item" href="#Waktu">
-                  Waktu
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#lokasi">
-                  Lokasi
-                </a>
-              </div>
-              
-              <div class="navbar-item">
-                <a class="navbar-item" href="#tentang-sherly-daeng">
-                  Tentang Sherly dan Daeng
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#rsvp">
-                  RSVP
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav> -->
-        <!-- End Mobile Nav -->
+        
         <!-- Begin Hero Content-->
         <div class="hero-body">
           <button id="toTop">
@@ -185,11 +149,13 @@
      <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
         
         <div data-aos="fade-up" data-aos-easing="linear">
-          <!-- <img src="/wedding-invite/image/parents.png" class="bismillah has-text-centered" alt="A letter from parents."> -->
           <img src="https://i.ibb.co/sQJNvy8/parents.png" class="bismillah has-text-centered" alt="A letter from parents.">
         </div>
 
         <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+
+          <button id="translate" class="material-icons">g_translate</button>
+          
           সুধী ,
           <br /><br />
           আমাদের একমাত্র কন্যা কল্যানীয়া পৌলমীর সাথে পশ্চিম বর্ধমান জেলার চিত্তরঞ্জন নিবাসী শ্রীযুক্ত অভিজিৎ চৌধুরী ও শ্রীমতী রীতা চৌধুরীর একমাত্র পুত্র কল্যাণীয় অর্পণের মুঠোফোনের পরিচয়, একই জন্মস্থানের টান থেকে অচিরেই ভালোবাসার টানে পরিণতি পায় ।
@@ -206,18 +172,8 @@
         </p>
 
         <!-- <span class="space40px"></span> -->
-        <!-- <span class="space40px"></span> -->
 
-        <!-- <div data-aos="fade-up" data-aos-easing="linear">
-          <div class="nama-lengkap" >
-            Sherly Jayanti, S.Par.
-          </div>
-          <div class="ampersand">&</div>
-          <div class="nama-lengkap">
-          Daeng Muhammad Feisal, S.Kom.
-          </div>
-           
-        </div> -->
+        
         <!-- <span class="space40px"></span> -->
         <div data-aos="fade-up" data-aos-easing="linear">
           <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
@@ -239,12 +195,14 @@
               class="column is-3 has-vertically-aligned-content">
             
               <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Friday</div> 
-                  <div class="waktu tanggal-angka has-text-centered">18</div>
+                  <div class="waktu tanggal-hari has-text-centered">Friday, 
+                    <span class="waktu tanggal-angka has-text-centered">18<sup>th</sup></span>
+                  </div> 
+                  
                   <div class="waktu tanggal-bulan has-text-centered">November 2022</div>
-                  <br />
-                  <div class="waktu tanggal-aoka has-text-centered">Registry</div>
-                  <br />
+                  <div class="waktu tanggal-aoka has-text-centered">Marriage Registry
+                    <div class="bangla tanggal-bangla">(রেজিস্ট্রি)</div>
+                  </div>
               </p>
             
             </div>
@@ -252,12 +210,13 @@
               class="column is-3 has-vertically-aligned-content">
             
               <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Saturday</div> 
-                  <div class="waktu tanggal-angka has-text-centered">19</div>
+                  <div class="waktu tanggal-hari has-text-centered">Saturday, 
+                  <span class="waktu tanggal-angka has-text-centered">19<sup>th</sup></span>
+                  </div>
                   <div class="waktu tanggal-bulan has-text-centered">November 2022</div>
-                  <br />
-                  <div class="waktu tanggal-aoka has-text-centered">Haldi</div>
-                  <br />
+                  <div class="waktu tanggal-aoka has-text-centered">Mehendi
+                    <div class="bangla tanggal-bangla">(মেহেন্দি)</div>
+                  </div>
               </p>
             
             </div>
@@ -265,12 +224,13 @@
               class="column is-3 has-vertically-aligned-content">
             
               <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Sunday</div> 
-                  <div class="waktu tanggal-angka has-text-centered">20</div>
+                  <div class="waktu tanggal-hari has-text-centered">Sunday, 
+                  <span class="waktu tanggal-angka has-text-centered">20<sup>th</sup></span>
+                  </div>
                   <div class="waktu tanggal-bulan has-text-centered">November 2022</div>
-                  <br />
-                  <div class="waktu tanggal-aoka has-text-centered">Wedding</div>
-                  <br />
+                  <div class="waktu tanggal-aoka has-text-centered">Wedding
+                    <div class="bangla tanggal-bangla">(বিবাহ)</div>
+                  </div>
               </p>
             
             </div>
@@ -278,12 +238,13 @@
               class="column is-3 has-vertically-aligned-content">
             
               <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Tuesday</div> 
-                  <div class="waktu tanggal-angka has-text-centered">22</div>
+                  <div class="waktu tanggal-hari has-text-centered">Tuesday, 
+                  <span class="waktu tanggal-angka has-text-centered">22<sup>nd</sup></span>
+                  </div>
                   <div class="waktu tanggal-bulan has-text-centered">November 2022</div>
-                  <br />
-                  <div class="waktu tanggal-aoka has-text-centered">Reception</div>
-                  <br />
+                  <div class="waktu tanggal-aoka has-text-centered">Reception
+                    <div class="bangla tanggal-bangla">(বৌভাত)</div>
+                  </div>
               </p>
             
             </div>
@@ -330,15 +291,24 @@
       <!-- End Lokasi Content -->
 
       <!-- Begin Tentang Sherly and Daeng -->
-      <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
+      
+      <!-- <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
         <div class="container">
           <div class="columns is-multiline">  
           <div class="column has-text-centered is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Tentang Sherly dan Daeng</h1>
-            
+            <div data-aos="fade-up" data-aos-easing="linear">
+              <div class="nama-lengkap" >
+                Poulomi Das
+              </div>
+              <div class="ampersand">&</div>
+              <div class="nama-lengkap">
+                Arpan Chaudhuri
+              </div>
+            </div>
+            <div class="space40px"></div>
+
 
           
-          <!-- IMAGES -->  
         <div class=" tile">
           <div class="tile is-ancestor">
           <div class="tile is-parent">
@@ -404,7 +374,6 @@
           </article>
         </div>
       </div>   
-          <!-- IMAGES -->
           <div class="space40px"></div>
             <div data-aos="fade-up" data-aos-easing="linear">
               <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
@@ -414,7 +383,7 @@
 
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Tentang Sherly dan Daeng -->
 
       <!-- Begin RSVP Content -->
@@ -422,61 +391,24 @@
         <div class="container">
           <div class="columns is-multiline">          
             <div class="column is-12 prolog">
-              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Konfirmasi Kehadiran</h1>
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Blessings</h1>
             </div>
             <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
               <p class="h2 subtitle">
-                Merupakan suatu kehormatan dan kebahagiaan bagi kami
+                Its an honor and happines for us if you are willing to attend our wedding.
                 <br>
-                apabila Bapak/Ibu/Saudara/Saudari berkenan hadir
-                memberikan doa restu.
-                <br>
-                <br>
-                Jika bisa hadir kami tunggu konfirmasinya, 
-                <br>
-                Informasi: Di meja penerima tamu akan kami sediakan hand sanitizer dan pemeriksaan suhu tubuh.
-                <br>
-                <br>
-                Jika tidak memungkinkan untuk hadir di pernikahan kami,tidak mengapa,
-                <br> 
-                semoga bisa berjumpa di lain kesempatan
-                <br>
-                <br>
-                Stay safe & jaga kesehatan ya :)
+                We are waiting for your blessings.
+                <br><br>
+                Stay safe and take care of your health :)
+                
                 </p>
      
-              <a href="https://api.whatsapp.com/send?phone=628xxxxxxxxxx&text=Halo%20Sherly,%20saya%20akan%20datang%20di%20acara%20pernikahan&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp;Kabari Sherly
-              </a>
               
-
-          
-              <a href="https://api.whatsapp.com/send?phone=628xxxxxxxxxx&text=Halo%20Daeng,%20saya%20akan%20datang%20di%20acara%20pernikahan&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp; Kabari Daeng
-              </a >
-              <div class="space40px"></div>
-
-              <div class="space40px"></div>
+              <!-- <div class="space40px"></div> -->
               <div data-aos="fade-up" data-aos-easing="linear">
                 <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
               </div>
-              <div class="space40px"></div>
-              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
-                Kami yang berbahagia,
-                <br>
-                <a class="instagram":" href="https://instagram.com/nengchely" target="_blank" alt="Instagram Sherly">
-                  <i class="fab fa-instagram"></i> @nengchely
-                </a>
-                &nbsp
-                <a class="instagram" href="https://instagram.com/daengdoang" target="_blank" alt="Instagram Daeng">
-                  <i class="fab fa-instagram"></i> @daengdoang
-                </a>
-              </p>
-
             </div>
- 
          </div>
         </div>
       </section>
@@ -487,15 +419,10 @@
     <!-- Begin Footer -->
     <div class="footer">
       <div class="container">
-        <a href="https://github.com/daengdoang/daeng-sherly-menikah" class="has-vertically-align">
-          <p class="has-vertically-align">2020 &copy Daeng Muhammad Feisal</p>
+        <a href="https://github.com/mr-whiterose" class="has-vertically-align">
+          <p class="has-vertically-align" style="font-size: 14px;">Made with &hearts; by Priyanshu Das</p>
         </a>
-        <a href="https://bulma.io" class="has-vertically-align">
-          <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
-        </a>
-        <a href="https://www.netlify.com">
-          <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploy with Netlify"/>
-        </a>
+        
       </div>
     </div>
     <!-- End Footer -->
