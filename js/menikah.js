@@ -18,7 +18,7 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
     document.getElementById("toTop").style.display = "block";
   } else {
     document.getElementById("toTop").style.display = "none";

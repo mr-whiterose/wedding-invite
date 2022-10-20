@@ -11,7 +11,7 @@
 
 .jumbo-view{
   margin: 0 auto;
-  height: 350px;
+  height: 40vh;
   width: auto;
 }
 
@@ -66,7 +66,7 @@ html {
 
 @media (max-width: 599px){
   .hero{
-    background: linear-gradient(rgba(153, 110, 109, 0), rgba(153, 110, 109, 0.74)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/N1ykS01/jumbo4.png") no-repeat center;
+    background: linear-gradient(rgba(153, 110, 109, 0), rgba(153, 110, 109, 0.74)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/6gN2Fw5/jumbo4-comp.jpg") no-repeat center;
     background-attachment: fixed;
     background-size: cover;
   }
