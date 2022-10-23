@@ -15,7 +15,16 @@
   width: auto;
 }
 
+.last-slide{
+  -webkit-text-stroke: 0.2px white;
+  font-size: 1rem;
+  color: whitesmoke;
+  font-family: 'Raleway', Tahoma, sans-serif;
+  margin: 0 auto;
+  height: 40vh;
+  width: auto;
 
+}
 
 .has-vertically-aligned-content {
   display: flex;
@@ -50,10 +59,13 @@ html {
   border-bottom: 2px solid #996E6D;
 }
 
-/* .a.navbar-item{
-  font-color: #996E6D;
-} */
-
+.end-photo{
+  background: linear-gradient( rgba(153, 110, 109, 0.738), rgba(153, 110, 109, 0.322)), rgba(0, 0, 0, 0.55)url("https://i.ibb.co/YT8HTvR/blessing1.jpg") no-repeat center;
+  background-position: bottom;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  
+}
 
 .hero {
   background: linear-gradient(rgba(153, 110, 109, 0), rgba(153, 110, 109, 0.649)), rgba(0, 0, 0, 0.55)url("https://i.ibb.co/tm2393R/jumbo3.png") no-repeat center;
@@ -71,8 +83,6 @@ html {
     background-size: cover;
   }
 }
-
-
 
 .hero .title {
   font-family: 'Rouge Script', sans-serif;
@@ -151,7 +161,6 @@ html {
 }
 
 .main-content {
-  /* padding-top: 2rem; */
   color: #000; 
   font-family: 'Raleway', sans-serif;
 }
@@ -346,7 +355,7 @@ line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
 }
-
+/* 
 #translate {
 
   position: absolute;
@@ -362,7 +371,7 @@ vertical-align: middle;
   cursor: pointer;
   border-radius: 10px;
   font-size: 32px;
-}
+} */
 
 .bodytext {
   z-index: -1;
@@ -429,6 +438,7 @@ vertical-align: middle;
 }
 
 .footer {
+
   bottom: 0;
   width: 100vw;
   padding: 10px 10px 10px 10px;
@@ -440,9 +450,10 @@ vertical-align: middle;
 }
 
 .footer p {
+  font-size: 1rem; 
+  font-family: 'Raleway', Tahoma, sans-serif;
   color: white;
   font-weight: 500;
-  font-size: 10pt;
   display: inline-block;
   vertical-align: middle;
 }
@@ -777,7 +788,7 @@ body.preloader-site {
   position: relative;
   z-index: 9;
 }
-
+/* 
 .foto1 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
   background-size: cover;
@@ -847,7 +858,7 @@ body.preloader-site {
   margin-top: 15px;
   text-align: left;
   color: white;
-}
+} */
 
 .section-light {
   background-image: url(../image/divider-flowers-leaves.png);
