@@ -78,7 +78,7 @@ html {
 
 @media (max-width: 599px){
   .hero{
-    background: linear-gradient(rgba(153, 110, 109, 0), rgba(153, 110, 109, 0.74)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/6gN2Fw5/jumbo4-comp.jpg") no-repeat center;
+    background: linear-gradient(rgba(153, 110, 109, 0), rgba(153, 110, 109, 0.74)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/zhYKNxX/jumbo6.jpg") no-repeat center;
     background-attachment: fixed;
     background-size: cover;
   }
@@ -415,7 +415,7 @@ vertical-align: middle;
 }
 
 .tanggal-aoka {
-  margin: 1rem 0;
+  margin: 0.5rem 0 1rem;
   font-size: 2.5rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
@@ -424,6 +424,7 @@ vertical-align: middle;
 
 .tanggal-bangla {
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .tempat {
