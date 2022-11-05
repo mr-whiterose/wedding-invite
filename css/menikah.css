@@ -15,9 +15,32 @@
   width: auto;
 }
 
+.prewed {
+  font-family: 'Rouge Script', sans-serif;
+  font-weight: 700;
+  padding: 0.7rem 1.5rem;
+  font-size: 3rem;
+  color: whitesmoke;
+  background-color: rgba(194, 130, 133, 0.612);
+  border-radius: 10px;
+  border: none;
+}
+
+@media (max-width: 499px){
+  .prewed{
+    padding: 1vw 3vw;
+    font-size: 10vw;
+  }
+  
+}
+
+.prewed a {
+  color: whitesmoke;
+}
+
 .last-slide{
-  -webkit-text-stroke: 0.2px white;
-  font-size: 1rem;
+  -webkit-text-stroke: 0.01rem white;
+  font-size: 1.2rem;
   color: whitesmoke;
   font-family: 'Raleway', Tahoma, sans-serif;
   margin: 0 auto;
@@ -508,7 +531,7 @@ vertical-align: middle;
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #996E6D;
+  background-color: #BC8887;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -516,8 +539,8 @@ vertical-align: middle;
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
-toTop:hover {
-  background-color: #BC8887;
+#toTop:hover {
+  background-color: #996E6D;
 }
 
 ::-webkit-scrollbar {
@@ -658,7 +681,6 @@ body.preloader-site {
 .dusty-pink-darkest {color: #996E6D}
 
 .tile {
-  /* margin-top: 20px; */
   border-radius: 15px;
 }
 
@@ -789,77 +811,7 @@ body.preloader-site {
   position: relative;
   z-index: 9;
 }
-/* 
-.foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
 
-
-.foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
-.foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
-
-.title-foto {
-  font-size: 18pt;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  text-align: left;
-  color: white;
-}
-
-
-.subtitle-foto {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 14pt;
-  font-weight: 600;
-  margin-top: 15px;
-  text-align: left;
-  color: white;
-} */
 
 .section-light {
   background-image: url(../image/divider-flowers-leaves.png);
