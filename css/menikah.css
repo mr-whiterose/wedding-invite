@@ -21,14 +21,15 @@
   padding: 0.7rem 1.5rem;
   font-size: 3rem;
   color: whitesmoke;
-  background-color: rgba(194, 130, 133, 0.407);
+  background-color: rgba(194, 130, 133, 0.896);
+  border: 2px solid ;
   border-radius: 10px;
-  border: none;
 }
 
-.prewed:hover{
-  background-color: rgba(194, 130, 133, 0.896);
-  border: 1px solid ;
+.prewed:active{
+  background-color: rgba(194, 130, 133, 0.407);
+  border: none;
+
 }
 
 @media (max-width: 499px){
@@ -546,6 +547,10 @@ vertical-align: middle;
 
 #toTop:hover {
   background-color: #996E6D;
+}
+
+#toTop:active {
+  background-color: #BC8887;
 }
 
 ::-webkit-scrollbar {
