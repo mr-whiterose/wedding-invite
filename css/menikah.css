@@ -21,9 +21,14 @@
   padding: 0.7rem 1.5rem;
   font-size: 3rem;
   color: whitesmoke;
-  background-color: rgba(194, 130, 133, 0.612);
+  background-color: rgba(194, 130, 133, 0.407);
   border-radius: 10px;
   border: none;
+}
+
+.prewed:hover{
+  background-color: rgba(194, 130, 133, 0.896);
+  border: 1px solid ;
 }
 
 @media (max-width: 499px){
